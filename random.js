@@ -33,7 +33,7 @@ if (typeof define != "undefined") {
 } else if (typeof module != "undefined") {
   module.exports = RandomStream;
 } else {
-  window.RandomStream = RandomStream;
+  window.WHRandomStream = RandomStream;
 }
 
 })();
