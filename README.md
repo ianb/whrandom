@@ -5,7 +5,7 @@ This is a port of Python's [whrandom](http://docs.python.org/release/2.4/lib/mod
 
 That means it creates "random" numbers with a <em>seed</em>, and if you provide the same seed it will create the same set of numbers.  This is a common feature in many languages, but not offered by Javascript's `Math.random()`.
 
-This isn't the best random number generator, but the algorithm is very simple.  Python for instance now prefers the [http://en.wikipedia.org/wiki/Mersenne_twister](Marsenne Twister).  But this is okay.
+This isn't the best random number generator, but the algorithm is very simple.  Python for instance now prefers the [Marsenne Twister](http://en.wikipedia.org/wiki/Mersenne_twister).  But this is okay for most people.
 
 Using it
 --------
